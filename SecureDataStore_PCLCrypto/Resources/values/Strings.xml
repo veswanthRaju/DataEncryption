@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">SecureDataStore_PCLCrypto</string>
+    <string name="placeholder">Enter your credit card number</string>
+    <string name="encryptTitle">Encryption</string>
+    <string name="encryptMessage">Encrypted with salt </string>
+    <string name="decryptTitle">Decryption</string>
+    <string name="decryptMessage">Decryted...</string>
+</resources>

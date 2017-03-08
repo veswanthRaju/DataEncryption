@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:password="true"
+        android:inputType="number"
+        android:maxLength="16"
+        android:hint="@string/placeholder" 
+        android:id="@+id/creditCardText"/>
+  
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Encrypt Data!"
+        android:layout_gravity="center"
+        android:id="@+id/enCryptBtn" />
+  
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Decrypt Data!"
+        android:layout_gravity="center"
+        android:id="@+id/deCryptBtn" />
+</LinearLayout>
